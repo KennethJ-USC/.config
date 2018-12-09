@@ -1,0 +1,15 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Agila Theme",
+		"Anaconda",
+		"Indentation Size Setting",
+		"Package Control",
+		"Pretty JSON",
+		"rsub"
+	]
+}

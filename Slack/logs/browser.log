@@ -1,0 +1,281 @@
+[03/05/18, 12:16:54:772] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[03/05/18, 12:16:54:773] info: ║      Slack 3.0.5, linux 4.13.0-32-generic on x64 at 03/05/18, 12:16:54:770      ║
+[03/05/18, 12:16:54:773] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[03/05/18, 12:16:54:935] info: Initializing local storage instance at path: /home/kennethj/.config/Slack/local-settings.json
+[03/05/18, 12:16:55:118] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/kennethj/.config/Slack/logs/recorded-trace
+[03/05/18, 12:16:58:909] info: Store: persist/REHYDRATE
+[03/05/18, 12:16:58:910] info: initializeMainWindowEpic: Waiting for sign-in
+[03/05/18, 12:16:58:910] info: NetworkStatus: Waiting for network online…
+[03/05/18, 12:16:58:912] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[03/05/18, 12:16:59:090] info: Tray Handler: Showing a tray balloon with title: Welcome to Slack!
+[03/05/18, 12:16:59:094] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 13,
+    "build": 0
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.5",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "Ubuntu 16.04.3 LTS",
+    "release": "xenial",
+    "desktopEnvironment": "i3"
+  }
+}
+[03/05/18, 12:16:59:095] info: AutoLoginEpic: Checking for autologin.
+[03/05/18, 12:16:59:096] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[03/05/18, 12:16:59:096] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[03/05/18, 12:16:59:096] info: signInNewTeamEpic: No teams signed in, showing sign-in window
+[03/05/18, 12:16:59:108] info: SignInEpic: Loading URL in new window
+{
+  "signInUrl": "https://slack.com/signin"
+}
+[03/05/18, 12:16:59:113] info: Store: UPDATE_SETTINGS
+{
+  "hasRunApp": true
+}
+[03/05/18, 12:16:59:115] info: WebContentsMediator: Attaching to new webContents
+[03/05/18, 12:16:59:117] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[03/05/18, 12:16:59:118] info: BrowserViewManager: Starting initialization
+[03/05/18, 12:16:59:119] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 1
+}
+[03/05/18, 12:16:59:120] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": null
+}
+[03/05/18, 12:16:59:121] info: PersistSettingsWindowBehavior: Resetting to default window position
+{
+  "settings": {
+    "position": [
+      384,
+      108
+    ],
+    "size": [
+      1152,
+      864
+    ]
+  }
+}
+[03/05/18, 12:16:59:122] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "position": [
+    384,
+    108
+  ],
+  "size": [
+    1152,
+    864
+  ]
+}
+[03/05/18, 12:16:59:134] info: Store: UPDATE_SETTINGS
+{
+  "PrefSSBFileDownloadPath": "/home/kennethj/Downloads"
+}
+[03/05/18, 12:16:59:136] info: DownloadListener: Downloads directory set to /home/kennethj/Downloads
+[03/05/18, 12:16:59:136] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[03/05/18, 12:16:59:138] info: App: Welcome to Slack 3.0.5 x64
+[03/05/18, 12:16:59:138] info: App load time: 4508ms
+[03/05/18, 12:16:59:181] info: Store: SET_FULL_SCREEN
+[03/05/18, 12:16:59:206] info: TransformPasswords: Writing entire reducer
+[03/05/18, 12:16:59:266] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[03/05/18, 12:16:59:267] info: Store: SET_NETWORK_STATUS online
+[03/05/18, 12:19:36:600] info: SignInEpic: Received team(s) from the webapp
+[03/05/18, 12:19:36:600] info: SignInEpic: Got signal!
+[03/05/18, 12:19:36:601] info: SignInEpic: Sign-in window closed
+[03/05/18, 12:19:36:604] info: maybeQuitAppAction
+{
+  "canceledSignIn": false,
+  "hasNoTeams": true
+}
+[03/05/18, 12:19:36:604] info: SignInEpic: End of the road
+{
+  "action": "ADD_NEW_TEAM"
+}
+[03/05/18, 12:19:36:604] info: Store: ADD_NEW_TEAM
+{
+  "id": "U9JP6196W",
+  "name": "[REDACTED]",
+  "team_id": "T1D098EK1",
+  "team_name": "[REDACTED]",
+  "team_url": "[REDACTED]"
+}
+[03/05/18, 12:19:36:609] info: BrowserViewManager: Creating views for 1 new teams
+[03/05/18, 12:19:36:609] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:36:609] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:36:611] info: WebContentsMediator: Attaching to new webContents
+[03/05/18, 12:19:36:613] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T1D098EK1 | ✔    |     |
++-----------+------+-----+
+[03/05/18, 12:19:36:614] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T1D098EK1",
+  "state": "unloaded"
+}
+[03/05/18, 12:19:36:626] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:36:628] info: Store: FOREGROUND_APP
+[03/05/18, 12:19:36:630] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldHide": false
+}
+[03/05/18, 12:19:36:631] info: Store: MAIN_WINDOW_SHOWN
+[03/05/18, 12:19:37:636] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1890,
+    1031
+  ],
+  "position": [
+    15,
+    34
+  ],
+  "isMaximized": false
+}
+[03/05/18, 12:19:40:148] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 3527 ms
+[03/05/18, 12:19:40:148] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:40:403] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:41:756] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:42:076] info: Store: SELECT_CHANNEL C1D05HB2L
+[03/05/18, 12:19:42:081] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:42:086] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[03/05/18, 12:19:42:092] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1D098EK1",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[03/05/18, 12:19:42:305] info: Store: SELECT_CHANNEL D9JP61KHQ
+[03/05/18, 12:19:42:341] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2193 ms
+[03/05/18, 12:19:42:341] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:42:512] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:42:515] info: TransformPasswords: Writing entire reducer
+[03/05/18, 12:20:03:035] info: Store: SELECT_CHANNEL C1D05HB2L
+[03/05/18, 12:20:45:512] info: Store: SELECT_CHANNEL G6YP48DQW
+[03/05/18, 12:20:47:533] info: WebContentsMediator: Attaching to new webContents
+[03/05/18, 12:20:47:818] info: WebContentsMediator: Attaching to new webContents
+[03/05/18, 12:23:07:572] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    937,
+    1031
+  ],
+  "position": [
+    15,
+    34
+  ],
+  "isMaximized": false
+}
+[03/05/18, 12:23:27:976] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1890,
+    1031
+  ],
+  "position": [
+    15,
+    34
+  ],
+  "isMaximized": false
+}
+[03/05/18, 19:45:12:138] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[03/05/18, 19:45:12:147] info: Store: UPDATE_SETTINGS
+{
+  "hasRunFromTray": true
+}
+[03/05/18, 19:45:12:152] info: Store: SHOW_TRAY_BALLOON
+{
+  "title": "Why didn’t Slack quit?",
+  "content": "Slack’s set to stay running in the notification area. To change this, visit Preferences > Linux App."
+}
+[03/05/18, 19:45:12:155] info: Tray Handler: Showing a tray balloon with title: Why didn’t Slack quit?
+[03/05/18, 19:45:12:176] info: Store: SET_FULL_SCREEN
+[03/05/18, 19:45:31:996] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 19:45:32:191] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1D098EK1"
+}

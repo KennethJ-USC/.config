@@ -1,0 +1,97 @@
+2018-12-03 21:20:21,376 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute']
+2018-12-03 21:20:21,378 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'os_login']
+2018-12-03 21:20:21,379 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'os-login', u'ssh_keys']
+2018-12-03 21:20:21,380 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'os-login', u'ssh-keys', u'add']
+2018-12-03 21:20:21,382 DEBUG    root            Running [gcloud.compute.os-login.ssh-keys.add] with arguments: [--key-file: "/home/kennethj/.ssh/id_rsa.pub"]
+2018-12-03 21:20:22,362 INFO     root            Display format: "default"
+2018-12-03 21:20:22,370 INFO     ___FILE_ONLY___ loginProfile
+2018-12-03 21:20:22,376 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,377 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,377 INFO     ___FILE_ONLY___   
+2018-12-03 21:20:22,377 INFO     ___FILE_ONLY___ name
+2018-12-03 21:20:22,378 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,378 INFO     ___FILE_ONLY___  '
+2018-12-03 21:20:22,378 INFO     ___FILE_ONLY___ 110736561494821964082
+2018-12-03 21:20:22,379 INFO     ___FILE_ONLY___ '
+2018-12-03 21:20:22,379 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,379 INFO     ___FILE_ONLY___   
+2018-12-03 21:20:22,380 INFO     ___FILE_ONLY___ posixAccounts
+2018-12-03 21:20:22,380 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,381 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,381 INFO     ___FILE_ONLY___   
+2018-12-03 21:20:22,381 INFO     ___FILE_ONLY___ -
+2018-12-03 21:20:22,382 INFO     ___FILE_ONLY___  
+2018-12-03 21:20:22,382 INFO     ___FILE_ONLY___ gid
+2018-12-03 21:20:22,383 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,383 INFO     ___FILE_ONLY___  '
+2018-12-03 21:20:22,383 INFO     ___FILE_ONLY___ 1755108885
+2018-12-03 21:20:22,383 INFO     ___FILE_ONLY___ '
+2018-12-03 21:20:22,384 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,384 INFO     ___FILE_ONLY___     
+2018-12-03 21:20:22,384 INFO     ___FILE_ONLY___ homeDirectory
+2018-12-03 21:20:22,384 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,385 INFO     ___FILE_ONLY___  
+2018-12-03 21:20:22,385 INFO     ___FILE_ONLY___ /home/kjohnson_cdhsc_org
+2018-12-03 21:20:22,385 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,385 INFO     ___FILE_ONLY___     
+2018-12-03 21:20:22,385 INFO     ___FILE_ONLY___ operatingSystemType
+2018-12-03 21:20:22,386 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,386 INFO     ___FILE_ONLY___  
+2018-12-03 21:20:22,386 INFO     ___FILE_ONLY___ LINUX
+2018-12-03 21:20:22,386 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,387 INFO     ___FILE_ONLY___     
+2018-12-03 21:20:22,387 INFO     ___FILE_ONLY___ primary
+2018-12-03 21:20:22,388 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,389 INFO     ___FILE_ONLY___  
+2018-12-03 21:20:22,389 INFO     ___FILE_ONLY___ true
+2018-12-03 21:20:22,389 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,389 INFO     ___FILE_ONLY___     
+2018-12-03 21:20:22,390 INFO     ___FILE_ONLY___ uid
+2018-12-03 21:20:22,390 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,390 INFO     ___FILE_ONLY___  '
+2018-12-03 21:20:22,390 INFO     ___FILE_ONLY___ 1755108885
+2018-12-03 21:20:22,391 INFO     ___FILE_ONLY___ '
+2018-12-03 21:20:22,391 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,391 INFO     ___FILE_ONLY___     
+2018-12-03 21:20:22,391 INFO     ___FILE_ONLY___ username
+2018-12-03 21:20:22,391 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,391 INFO     ___FILE_ONLY___  
+2018-12-03 21:20:22,392 INFO     ___FILE_ONLY___ kjohnson_cdhsc_org
+2018-12-03 21:20:22,392 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,392 INFO     ___FILE_ONLY___   
+2018-12-03 21:20:22,392 INFO     ___FILE_ONLY___ sshPublicKeys
+2018-12-03 21:20:22,394 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,394 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,394 INFO     ___FILE_ONLY___     
+2018-12-03 21:20:22,394 INFO     ___FILE_ONLY___ 0ac376723c91634983b6cebb357be0fc805c7eed68c9cb9af603a370d2639ce5
+2018-12-03 21:20:22,394 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,395 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,395 INFO     ___FILE_ONLY___       
+2018-12-03 21:20:22,395 INFO     ___FILE_ONLY___ fingerprint
+2018-12-03 21:20:22,395 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,395 INFO     ___FILE_ONLY___  
+2018-12-03 21:20:22,395 INFO     ___FILE_ONLY___ 0ac376723c91634983b6cebb357be0fc805c7eed68c9cb9af603a370d2639ce5
+2018-12-03 21:20:22,395 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,396 INFO     ___FILE_ONLY___       
+2018-12-03 21:20:22,396 INFO     ___FILE_ONLY___ key
+2018-12-03 21:20:22,396 INFO     ___FILE_ONLY___ :
+2018-12-03 21:20:22,396 INFO     ___FILE_ONLY___  |
+2018-12-03 21:20:22,396 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,397 INFO     ___FILE_ONLY___         
+2018-12-03 21:20:22,397 INFO     ___FILE_ONLY___ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCs56xfZ42PqpfzOvzNhn+qMvUYnQOPu5UD/aZtHLZsnWY9i6hYIFgPaJC5SWMF/cVncnhqb72X5/aayqaZLEtfEdD/y5gxIFWkzxnn/JnDcG7beD3etIOcH79r4JVPxJkCwlF86rvElLmpEsL4TJkPYlBZC1n9pN6iVe9pclykLlBp0fjgHQdEhht9Y55ao+z+0kbeU/Nvmp6l/KGHeKRjG6iggskEiJYLF1phcUvtSSiiubeabEOZJfdjd7KdhWy6A9FSC86cFOEGvqXsoTAcx6GWhLq2p0PMtGZt2ljwd7nqKr27782DqDzMPaHhYSNHURKUs0ige3JLXomfTLdZ kennethj@KAJ-Swift3
+2018-12-03 21:20:22,397 INFO     ___FILE_ONLY___ 
+
+2018-12-03 21:20:22,398 DEBUG    root            SDK update checks are disabled.

@@ -1,0 +1,287 @@
+[03/05/18, 12:19:37:500] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[03/05/18, 12:19:37:501] info: ║      Slack 3.0.5, linux 4.13.0-32-generic on x64 at 03/05/18, 12:19:37:497      ║
+[03/05/18, 12:19:37:501] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[03/05/18, 12:19:37:613] info: Initializing local storage instance at path: /home/kennethj/.config/Slack/local-settings.json
+[03/05/18, 12:19:37:916] info: updateSuspendResume: true
+[03/05/18, 12:19:37:916] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[03/05/18, 12:19:40:166] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:40:407] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:41:783] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:42:489] info: Store: SELECT_CHANNEL C1D05HB2L
+[03/05/18, 12:19:42:490] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:42:490] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[03/05/18, 12:19:42:491] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T1D098EK1",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[03/05/18, 12:19:42:508] info: Store: SELECT_CHANNEL D9JP61KHQ
+[03/05/18, 12:19:42:509] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 12:19:42:571] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T1D098EK1",
+  "token": "xoxs-⋯"
+}
+[03/05/18, 12:19:48:102] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[03/05/18, 12:19:48:308] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[03/05/18, 12:19:54:712] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[03/05/18, 12:20:03:079] info: Store: SELECT_CHANNEL C1D05HB2L
+[03/05/18, 12:20:09:423] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[03/05/18, 12:20:45:589] info: Store: SELECT_CHANNEL G6YP48DQW
+[03/05/18, 12:20:47:813] info: Raw Locale list: ["C","C.UTF-8","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","POSIX",""]
+[03/05/18, 12:20:47:813] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]
+[03/05/18, 12:20:47:813] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]}
+[03/05/18, 12:20:47:814] info: Result: {"en":"en-US"}
+[03/05/18, 12:20:47:815] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[03/05/18, 12:20:47:816] info: Loading dictionary for language en-US
+[03/05/18, 12:20:47:817] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/en-us-7-1.bdic
+[03/05/18, 12:20:48:874] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 12:20:48:874] info: Creating node-spellchecker instance
+[03/05/18, 12:20:48:875] info: Actually installing spell check provider to Electron
+[03/05/18, 12:23:06:684] info: Unloading spellchecker
+[03/05/18, 12:23:07:576] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    15,
+    34
+  ],
+  "size": [
+    937,
+    1031
+  ]
+}
+[03/05/18, 12:23:26:975] info: Restoring spellchecker
+[03/05/18, 12:23:26:977] info: Loading dictionary for language en-US
+[03/05/18, 12:23:26:978] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 12:23:26:983] info: Unloading spellchecker
+[03/05/18, 12:23:26:987] info: Restoring spellchecker
+[03/05/18, 12:23:26:988] info: Loading dictionary for language en-US
+[03/05/18, 12:23:26:988] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 12:23:26:991] info: Unloading spellchecker
+[03/05/18, 12:23:26:993] info: Restoring spellchecker
+[03/05/18, 12:23:26:994] info: Loading dictionary for language en-US
+[03/05/18, 12:23:26:994] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 12:23:27:228] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 12:23:27:228] info: Creating node-spellchecker instance
+[03/05/18, 12:23:27:230] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 12:23:27:230] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 12:23:27:740] info: Unloading spellchecker
+[03/05/18, 12:23:27:976] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    15,
+    34
+  ],
+  "size": [
+    1890,
+    1031
+  ]
+}
+[03/05/18, 12:28:30:530] info: Restoring spellchecker
+[03/05/18, 12:28:30:531] info: Loading dictionary for language en-US
+[03/05/18, 12:28:30:532] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 12:28:30:577] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 12:28:30:578] info: Creating node-spellchecker instance
+[03/05/18, 12:28:36:421] info: Unloading spellchecker
+[03/05/18, 12:33:53:688] info: Restoring spellchecker
+[03/05/18, 12:33:53:689] info: Loading dictionary for language en-US
+[03/05/18, 12:33:53:689] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 12:33:53:797] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 12:33:53:797] info: Creating node-spellchecker instance
+[03/05/18, 12:33:57:185] info: Unloading spellchecker
+[03/05/18, 12:56:06:054] info: Restoring spellchecker
+[03/05/18, 12:56:06:055] info: Loading dictionary for language en-US
+[03/05/18, 12:56:06:055] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 12:56:06:097] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 12:56:06:098] info: Creating node-spellchecker instance
+[03/05/18, 12:56:06:613] info: Unloading spellchecker
+[03/05/18, 12:57:55:390] info: Restoring spellchecker
+[03/05/18, 12:57:55:391] info: Loading dictionary for language en-US
+[03/05/18, 12:57:55:392] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 12:57:55:433] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 12:57:55:433] info: Creating node-spellchecker instance
+[03/05/18, 12:57:55:920] info: Unloading spellchecker
+[03/05/18, 13:10:39:129] error: Mar-5 13:10:39.128 T1D098EK1 SOCKET-MANAGER:  Closing socket due to unknown error
+[03/05/18, 13:45:41:128] info: Restoring spellchecker
+[03/05/18, 13:45:41:128] info: Loading dictionary for language en-US
+[03/05/18, 13:45:41:129] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 13:45:41:251] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 13:45:41:252] info: Creating node-spellchecker instance
+[03/05/18, 13:45:47:005] info: Unloading spellchecker
+[03/05/18, 13:46:13:383] info: Restoring spellchecker
+[03/05/18, 13:46:13:384] info: Loading dictionary for language en-US
+[03/05/18, 13:46:13:384] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 13:46:13:428] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 13:46:13:429] info: Creating node-spellchecker instance
+[03/05/18, 13:46:18:138] info: Unloading spellchecker
+[03/05/18, 13:46:22:421] info: Restoring spellchecker
+[03/05/18, 13:46:22:421] info: Loading dictionary for language en-US
+[03/05/18, 13:46:22:422] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 13:46:22:426] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 13:46:22:426] info: Creating node-spellchecker instance
+[03/05/18, 13:46:39:333] info: Unloading spellchecker
+[03/05/18, 13:52:38:247] info: Restoring spellchecker
+[03/05/18, 13:52:38:248] info: Loading dictionary for language en-US
+[03/05/18, 13:52:38:248] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 13:52:38:252] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 13:52:38:252] info: Creating node-spellchecker instance
+[03/05/18, 13:52:49:466] info: Unloading spellchecker
+[03/05/18, 13:53:09:592] info: Restoring spellchecker
+[03/05/18, 13:53:09:593] info: Loading dictionary for language en-US
+[03/05/18, 13:53:09:593] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 13:53:09:597] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 13:53:09:598] info: Creating node-spellchecker instance
+[03/05/18, 13:53:33:306] info: Unloading spellchecker
+[03/05/18, 14:13:15:066] info: Restoring spellchecker
+[03/05/18, 14:13:15:067] info: Loading dictionary for language en-US
+[03/05/18, 14:13:15:067] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 14:13:15:195] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 14:13:15:195] info: Creating node-spellchecker instance
+[03/05/18, 14:13:32:387] info: Unloading spellchecker
+[03/05/18, 14:13:36:870] info: Restoring spellchecker
+[03/05/18, 14:13:36:870] info: Loading dictionary for language en-US
+[03/05/18, 14:13:36:870] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 14:13:36:904] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 14:13:36:905] info: Creating node-spellchecker instance
+[03/05/18, 14:13:37:434] info: Unloading spellchecker
+[03/05/18, 14:13:41:203] info: Restoring spellchecker
+[03/05/18, 14:13:41:204] info: Loading dictionary for language en-US
+[03/05/18, 14:13:41:204] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 14:13:41:254] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 14:13:41:254] info: Creating node-spellchecker instance
+[03/05/18, 14:13:41:987] info: Unloading spellchecker
+[03/05/18, 14:14:40:183] info: Restoring spellchecker
+[03/05/18, 14:14:40:183] info: Loading dictionary for language en-US
+[03/05/18, 14:14:40:183] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 14:14:40:186] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 14:14:40:187] info: Creating node-spellchecker instance
+[03/05/18, 14:14:52:095] info: Unloading spellchecker
+[03/05/18, 14:32:34:311] info: Restoring spellchecker
+[03/05/18, 14:32:34:311] info: Loading dictionary for language en-US
+[03/05/18, 14:32:34:311] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 14:32:34:319] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 14:32:34:319] info: Creating node-spellchecker instance
+[03/05/18, 14:33:12:431] info: Unloading spellchecker
+[03/05/18, 14:35:09:640] info: Restoring spellchecker
+[03/05/18, 14:35:09:641] info: Loading dictionary for language en-US
+[03/05/18, 14:35:09:641] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 14:35:09:682] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 14:35:09:682] info: Creating node-spellchecker instance
+[03/05/18, 14:35:11:663] info: Unloading spellchecker
+[03/05/18, 14:49:54:822] info: Restoring spellchecker
+[03/05/18, 14:49:54:822] info: Loading dictionary for language en-US
+[03/05/18, 14:49:54:822] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 14:49:54:890] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 14:49:54:890] info: Creating node-spellchecker instance
+[03/05/18, 14:49:55:320] info: Unloading spellchecker
+[03/05/18, 14:49:57:441] info: Restoring spellchecker
+[03/05/18, 14:49:57:442] info: Loading dictionary for language en-US
+[03/05/18, 14:49:57:442] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 14:49:57:479] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 14:49:57:480] info: Creating node-spellchecker instance
+[03/05/18, 14:49:57:816] info: Unloading spellchecker
+[03/05/18, 14:56:37:420] info: Restoring spellchecker
+[03/05/18, 14:56:37:420] info: Loading dictionary for language en-US
+[03/05/18, 14:56:37:420] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 14:56:37:448] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 14:56:37:448] info: Creating node-spellchecker instance
+[03/05/18, 14:56:37:772] info: Unloading spellchecker
+[03/05/18, 15:02:12:447] info: Restoring spellchecker
+[03/05/18, 15:02:12:448] info: Loading dictionary for language en-US
+[03/05/18, 15:02:12:448] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 15:02:12:487] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 15:02:12:487] info: Creating node-spellchecker instance
+[03/05/18, 15:02:13:868] info: Unloading spellchecker
+[03/05/18, 19:44:46:797] info: Restoring spellchecker
+[03/05/18, 19:44:46:799] info: Loading dictionary for language en-US
+[03/05/18, 19:44:46:800] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 19:44:46:844] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 19:44:46:845] info: Creating node-spellchecker instance
+[03/05/18, 19:44:47:379] info: Unloading spellchecker
+[03/05/18, 19:44:48:233] info: Restoring spellchecker
+[03/05/18, 19:44:48:235] info: Loading dictionary for language en-US
+[03/05/18, 19:44:48:235] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 19:44:48:278] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 19:44:48:278] info: Creating node-spellchecker instance
+[03/05/18, 19:44:48:682] info: Unloading spellchecker
+[03/05/18, 19:44:51:084] info: Restoring spellchecker
+[03/05/18, 19:44:51:085] info: Loading dictionary for language en-US
+[03/05/18, 19:44:51:086] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 19:44:51:186] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 19:44:51:187] info: Creating node-spellchecker instance
+[03/05/18, 19:44:51:519] info: Unloading spellchecker
+[03/05/18, 19:44:52:299] info: Restoring spellchecker
+[03/05/18, 19:44:52:301] info: Loading dictionary for language en-US
+[03/05/18, 19:44:52:302] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 19:44:52:385] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 19:44:52:386] info: Creating node-spellchecker instance
+[03/05/18, 19:44:53:010] info: Unloading spellchecker
+[03/05/18, 19:45:02:193] error: Mar-5 19:45:02.192 T1D098EK1 SOCKET-MANAGER:  Closing socket due to unknown error
+[03/05/18, 19:45:04:986] info: Restoring spellchecker
+[03/05/18, 19:45:04:986] info: Loading dictionary for language en-US
+[03/05/18, 19:45:04:986] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 19:45:05:016] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 19:45:05:016] info: Creating node-spellchecker instance
+[03/05/18, 19:45:05:684] info: Unloading spellchecker
+[03/05/18, 19:45:11:491] info: Restoring spellchecker
+[03/05/18, 19:45:11:491] info: Loading dictionary for language en-US
+[03/05/18, 19:45:11:491] info: Returning local copy: /home/kennethj/.config/Slack/dictionaries/en-US.bdic
+[03/05/18, 19:45:11:526] info: Setting current spellchecker to en-US, requested language was en-US
+[03/05/18, 19:45:11:526] info: Creating node-spellchecker instance
+[03/05/18, 19:45:12:194] info: Unloading spellchecker
+[03/05/18, 19:45:12:195] info: Store: UPDATE_SETTINGS
+{
+  "hasRunFromTray": true
+}
+[03/05/18, 19:45:12:195] info: Store: SHOW_TRAY_BALLOON
+{
+  "content": "Slack’s set to stay running in the notification area. To change this, visit Preferences > Linux App.",
+  "title": "Why didn’t Slack quit?"
+}
+[03/05/18, 19:45:12:196] info: Store: SET_FULL_SCREEN
+[03/05/18, 19:45:32:217] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T1D098EK1"
+}
+[03/05/18, 19:45:32:219] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T1D098EK1"
+}

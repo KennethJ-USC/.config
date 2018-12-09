@@ -1,0 +1,969 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3126,
+	"last_window_id": 4,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1031.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"all",
+						"all_comment_bodies\tstatement"
+					],
+					[
+						"com",
+						"com_limit"
+					],
+					[
+						"get",
+						"get_submission_top_comments\tfunction"
+					],
+					[
+						"sub_s",
+						"sub_submissions\tstatement"
+					],
+					[
+						"sub",
+						"sub_submissions"
+					],
+					[
+						"s",
+						"sub_limit"
+					],
+					[
+						"top",
+						"top_comment"
+					],
+					[
+						"obj",
+						"submission_obj_list"
+					],
+					[
+						"submiss",
+						"submission_obj_list\tstatement"
+					],
+					[
+						"x",
+						"x_values\tstatement"
+					],
+					[
+						"Arg",
+						"ArgumentParser\tclass"
+					],
+					[
+						"add",
+						"add_argument\tfunction"
+					],
+					[
+						"text",
+						"text_list\tparam"
+					],
+					[
+						"comm",
+						"comment_limit"
+					],
+					[
+						"limit",
+						"limit_y\tparam"
+					],
+					[
+						"get_",
+						"get_submission_top_comments\tfunction"
+					],
+					[
+						"limi",
+						"limit_y\tparam"
+					],
+					[
+						"parse",
+						"parse_args\tfunction"
+					],
+					[
+						"parser",
+						"parser"
+					],
+					[
+						"chan",
+						"changedStatus"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 100.0,
+				"last_filter": "disable",
+				"selected_items":
+				[
+					[
+						"disable",
+						"Anaconda: Disable linting on this file"
+					],
+					[
+						"Package Instal",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 457.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"Agila Theme",
+					"Agila",
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/kennethj/ACM/PythonTalk/memebot.py",
+				"/home/kennethj/ACM/PythonTalk/Proj/plotdata.py",
+				"/home/kennethj/ACM/PythonTalk/Proj/analyzer2.py",
+				"/home/kennethj/ACM/PythonTalk/Proj/analyzer.py",
+				"/home/kennethj/ACM/PythonTalk/Proj/main.py",
+				"/home/kennethj/CDH/DockerTest/Dockerfile",
+				"/home/kennethj/CDH/DockerTest/app.py",
+				"/home/kennethj/a311/Assignment1_Threads/TimerInterruptHandler.java",
+				"/home/kennethj/a311/Assignment1_Threads/ThreadCB.java"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 937.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"iorb",
+						"iorbQueue"
+					],
+					[
+						"ior",
+						"iorbQueue"
+					],
+					[
+						"user",
+						"user_obj"
+					],
+					[
+						"status",
+						"status_d\tstatement"
+					],
+					[
+						"dump",
+						"dumps\tfunction"
+					],
+					[
+						"load",
+						"loads\tfunction"
+					],
+					[
+						"eva",
+						"evan_objs\tstatement"
+					],
+					[
+						"sear",
+						"search_terms"
+					],
+					[
+						"sea",
+						"search_terms\tstatement"
+					],
+					[
+						"f",
+						"f"
+					],
+					[
+						"ids",
+						"ids100\tstatement"
+					],
+					[
+						"acee",
+						"access_token_secret\tparam"
+					],
+					[
+						"con",
+						"consumer_secret\tparam"
+					],
+					[
+						"is",
+						"isValid"
+					],
+					[
+						"new",
+						"newFrame"
+					],
+					[
+						"getFr",
+						"getFrame"
+					],
+					[
+						"reserved",
+						"reservedOrLocked"
+					],
+					[
+						"getFrame",
+						"getFrameTableSize"
+					],
+					[
+						"u",
+						"u_d\tstatement"
+					],
+					[
+						"js",
+						"json_encoder\tfunction"
+					],
+					[
+						"tex",
+						"text_list\tstatement"
+					],
+					[
+						"_",
+						"_json"
+					],
+					[
+						"id",
+						"id_str\tparam"
+					],
+					[
+						"get",
+						"get_user_timeline\tfunction"
+					],
+					[
+						"get_us",
+						"get_user_timeline"
+					],
+					[
+						"json",
+						"json_str\tstatement"
+					],
+					[
+						"us",
+						"user_dict\tparam"
+					],
+					[
+						"str",
+						"str\tclass"
+					],
+					[
+						"ev",
+						"ev_dict_list\tstatement"
+					],
+					[
+						"dict",
+						"dict_arr\tstatement"
+					],
+					[
+						"m",
+						"matched_word"
+					],
+					[
+						"use",
+						"user_dict"
+					],
+					[
+						"sec",
+						"sec_arr\tstatement"
+					],
+					[
+						"da",
+						"day_list\tstatement"
+					],
+					[
+						"as",
+						"asarray"
+					],
+					[
+						"date",
+						"datetime_posted"
+					],
+					[
+						"di",
+						"dict_arr\tstatement"
+					],
+					[
+						"day",
+						"day\tstatement"
+					],
+					[
+						"mon",
+						"month\tstatement"
+					],
+					[
+						"word",
+						"word_alpha\tstatement"
+					],
+					[
+						"inpu",
+						"inputfile"
+					],
+					[
+						"evangelical",
+						"evangelical_score"
+					],
+					[
+						"score",
+						"score_threshold\tparam"
+					],
+					[
+						"bio",
+						"bio_list\tstatement"
+					],
+					[
+						"input",
+						"input\tfunction"
+					],
+					[
+						"searc",
+						"search_file"
+					],
+					[
+						"y",
+						"year_int\tstatement"
+					],
+					[
+						"_m",
+						"_month_str\tstatement"
+					],
+					[
+						"month",
+						"month_converter\tfunction"
+					],
+					[
+						"fu",
+						"full_dict\tstatement"
+					],
+					[
+						"fi",
+						"full_dict"
+					],
+					[
+						"dic",
+						"dict_samp\tstatement"
+					],
+					[
+						"dat",
+						"datetime\tclass"
+					],
+					[
+						"full",
+						"full_dict"
+					],
+					[
+						"tweet",
+						"tweet_dict"
+					],
+					[
+						"twe",
+						"tweet_dict"
+					],
+					[
+						"attr",
+						"attribute"
+					],
+					[
+						"keys",
+						"keys_list\tstatement"
+					],
+					[
+						"key",
+						"keys_list\tstatement"
+					],
+					[
+						"jsn",
+						"json_arr\tstatement"
+					],
+					[
+						"p",
+						"p"
+					],
+					[
+						"media",
+						"medianOf3"
+					],
+					[
+						"question",
+						"question\tstatement"
+					],
+					[
+						"questio",
+						"question_id"
+					],
+					[
+						"Question",
+						"Question\tclass"
+					],
+					[
+						"quest",
+						"question_text\tstatement"
+					],
+					[
+						"next",
+						"nextInt"
+					],
+					[
+						"exp",
+						"expired"
+					],
+					[
+						"Acti",
+						"activeArr"
+					],
+					[
+						"ret",
+						"retThread"
+					],
+					[
+						"remv",
+						"removeHead"
+					],
+					[
+						"remo",
+						"removeHead"
+					],
+					[
+						"active",
+						"activeArr"
+					],
+					[
+						"set",
+						"setPriority"
+					],
+					[
+						"arr",
+						"activeArr"
+					],
+					[
+						"expired",
+						"expiredArr"
+					],
+					[
+						"appe",
+						"append"
+					],
+					[
+						"all",
+						"all_comment_bodies\tstatement"
+					],
+					[
+						"com",
+						"com_limit"
+					],
+					[
+						"sub_s",
+						"sub_submissions\tstatement"
+					],
+					[
+						"sub",
+						"sub_submissions"
+					],
+					[
+						"s",
+						"sub_limit"
+					],
+					[
+						"top",
+						"top_comment"
+					],
+					[
+						"obj",
+						"submission_obj_list"
+					],
+					[
+						"submiss",
+						"submission_obj_list\tstatement"
+					],
+					[
+						"x",
+						"x_values\tstatement"
+					],
+					[
+						"Arg",
+						"ArgumentParser\tclass"
+					],
+					[
+						"add",
+						"add_argument\tfunction"
+					],
+					[
+						"text",
+						"text_list\tparam"
+					],
+					[
+						"comm",
+						"comment_limit"
+					],
+					[
+						"limit",
+						"limit_y\tparam"
+					],
+					[
+						"get_",
+						"get_submission_top_comments\tfunction"
+					],
+					[
+						"limi",
+						"limit_y\tparam"
+					],
+					[
+						"parse",
+						"parse_args\tfunction"
+					],
+					[
+						"parser",
+						"parser"
+					],
+					[
+						"chan",
+						"changedStatus"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 134.0,
+				"last_filter": "install",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"",
+						"HTML: Encode Special Characters"
+					],
+					[
+						"j",
+						"Pretty JSON: JSON query with ./jq"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"reind",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"dis",
+						"Anaconda: Disable linting on this file"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"disable",
+						"Anaconda: Disable linting on this file"
+					],
+					[
+						"Package Instal",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 493.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"Agila Theme",
+					"Agila",
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/kennethj/a350/program4/targetgtest.cpp",
+				"/home/kennethj/a350/program4/program4.h",
+				"/home/kennethj/a311/Devices/my3/IORB.java",
+				"/home/kennethj/a311/Devices/my3/DiskInterruptHandler.java",
+				"/home/kennethj/a311/Devices/my3/Device.java",
+				"/home/kennethj/a311/Devices/oth/IORB.java",
+				"/home/kennethj/a311/Devices/oth/DiskInterruptHandler.java",
+				"/home/kennethj/a311/Devices/oth/Device.java",
+				"/home/kennethj/a311/Devices/oth2/IORB.java",
+				"/home/kennethj/a311/Devices/oth2/Device.java",
+				"/home/kennethj/a311/Devices/oth2/DiskInterruptHandler.java",
+				"/home/kennethj/a311/Devices/IORB.java",
+				"/home/kennethj/a311/Devices/DiskInterruptHandler.java",
+				"/home/kennethj/a311/Devices/Device.java",
+				"/home/kennethj/a350/project3/Graph.h",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/twarc_test.py",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/gitRepo/TwitterEvangelicalAnalysis/user-id-encoder.py",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/gitRepo/TwitterEvangelicalAnalysis/get_unique.py",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/gitRepo/TwitterEvangelicalAnalysis/twarc_test.py",
+				"/home/kennethj/a311/Project4b/Memory/SecondChance/FrameTableEntry.java",
+				"/home/kennethj/a311/Project4b/Memory/SecondChance/MMU.java",
+				"/home/kennethj/a311/Project4b/Memory/SecondChance/PageFaultHandler.java",
+				"/home/kennethj/a311/Project4b/Memory/SecondChance/PageTable.java",
+				"/home/kennethj/a311/Project4b/Memory/SecondChance/PageTableEntry.java",
+				"/home/kennethj/a311/Project4b/Memory/SecondChance/.java",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/test/out02.txt",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/test/out03.txt",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/user-id-encoder.py",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/user.py",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/tweet.py",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/__init__.py",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/handler.py",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/followers/user-id-encoder.py",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/scripts/plot_dates01.py",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/data/user-bios-raw.txt",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/test/out-short01.txt",
+				"/home/kennethj/Research/EvangelicalAnalysis/env/json_handler.py",
+				"/home/kennethj/Research/EvangelicalAnalysis/christin/a_gettweets.py",
+				"/home/kennethj/Research/EvangelicalAnalysis/christin/sleepscript.sh",
+				"/home/kennethj/a350/Program_1_350/quicksort.h",
+				"/home/kennethj/CDH/LearnDjango/ve/myblog/polls/urls.py",
+				"/home/kennethj/CDH/LearnDjango/ve/myblog/polls/templates/polls/index.html",
+				"/home/kennethj/CDH/LearnDjango/ve/myblog/polls/views.py",
+				"/home/kennethj/CDH/LearnDjango/ve/myblog/polls/models.py",
+				"/home/kennethj/a311/Project3/threadsassignment/TimerInterruptHandler.java",
+				"/home/kennethj/a311/Project3/threadsassignment/ThreadCB.java",
+				"/home/kennethj/CDH/LearnDjango/ve/myblog/myblog/settings.py",
+				"/home/kennethj/CDH/LearnDjango/ve/myblog/myblog/urls.py",
+				"/home/kennethj/ACM/PythonTalk/memebot.py",
+				"/home/kennethj/ACM/PythonTalk/Proj/plotdata.py",
+				"/home/kennethj/ACM/PythonTalk/Proj/analyzer2.py",
+				"/home/kennethj/ACM/PythonTalk/Proj/analyzer.py",
+				"/home/kennethj/ACM/PythonTalk/Proj/main.py",
+				"/home/kennethj/CDH/DockerTest/Dockerfile",
+				"/home/kennethj/CDH/DockerTest/app.py",
+				"/home/kennethj/a311/Assignment1_Threads/TimerInterruptHandler.java",
+				"/home/kennethj/a311/Assignment1_Threads/ThreadCB.java"
+			],
+			"find":
+			{
+				"height": 28.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"newIORB",
+					"SectorSize",
+					"SectorsPerBlock",
+					"blockSize",
+					"BlockN",
+					"BlocksPerTrack",
+					"TracksPerCylinder",
+					"TrackN",
+					"CylinderN",
+					"DeviceId",
+					"stat",
+					"pfCoun",
+					"sca",
+					"pageNo",
+					"pte",
+					"PTE",
+					"SCAqueue",
+					"pagefaultcount",
+					"SCAqueue",
+					"pagetableTask",
+					"iorbThread",
+					"user",
+					"print",
+					"full_",
+					"full",
+					"text",
+					"full_"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"auto_name": "",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 28.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,960,550,1914,1074,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 52.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

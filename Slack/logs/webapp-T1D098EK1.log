@@ -1,0 +1,522 @@
+info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.5, linux 4.13.0-32-generic on x64 at 03/05/18, 12:19:36:622      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+info: Mar-5 12:19:39.648 [BOOT] booted! pri:0 version:1520269659 start_ms:1520270378158 (1489ms ago)
+info: Mar-5 12:19:40.730 [T1D098EK1] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Mar-5 12:19:40.740 [T1D098EK1] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Mar-5 12:19:40.740 [T1D098EK1] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Mar-5 12:19:40.750 [T1D098EK1] SOCKET-MANAGER:  will stay in prov_connecting state for up to 35000 ms
+info: Mar-5 12:19:40.830 [INFO] Starting non-incremental boot
+info: Mar-5 12:19:40.961 [T1D098EK1] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Mar-5 12:19:40.962 [T1D098EK1] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Mar-5 12:19:40.968 [INFO] Got start data from Socket Manager; hydrating it
+warn: Mar-5 12:19:41.737 TS.client.channel_header.start cannot find channel, im, or group.
+info: Mar-5 12:19:42.338 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Mar-5 12:19:42.338 [T1D098EK1] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Mar-5 12:19:42.338 [T1D098EK1] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Mar-5 12:19:42.339 [T1D098EK1] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Mar-5 12:19:42.339 [T1D098EK1] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Mar-5 12:19:42.339 [T1D098EK1] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Mar-5 12:19:42.340 [T1D098EK1] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Mar-5 12:19:42.340 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Mar-5 12:19:42.341 [BOOT] Finished first boot 2279 ms after DOM ready
+info: Mar-5 12:19:42.522 [CHECK-UNREADS] Checking unreads after fully booted
+info: Mar-5 12:19:42.523 [CHECK-UNREADS] Not marking D9JP61KHQ, clearing ghost last_read
+info: Mar-5 12:19:42.642 [UNREAD-COUNTS] Completed users.counts processing
+info: Mar-5 12:19:48.950 [MESSAGE-LIST] requestAround channelId: D9JP61KHQ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Mar-5 12:19:48.960 [HISTORY-FETCH] Fetching history for message pane: D9JP61KHQ
+info: Mar-5 12:19:48.132 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Mar-5 12:19:48.287 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Mar-5 12:19:48.293 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Mar-5 12:19:48.629 [UNREAD-COUNTS] Counting unreads in D9JP61KHQ because (1) timestamps added
+info: Mar-5 12:19:48.631 [UNREAD-COUNTS] Updated unread_cnt for D9JP61KHQ: 1
+info: Mar-5 12:19:48.635 [UNREAD-COUNTS] Checking unreads in D9JP61KHQ after a new message
+info: Mar-5 12:19:48.636 [CHECK-UNREADS] Marking D9JP61KHQ because unread line is visible
+info: Mar-5 12:19:48.642 [UNREAD-COUNTS] Counting unreads in D9JP61KHQ because last_read changed to 1520270388.000360
+info: Mar-5 12:19:48.643 [UNREAD-COUNTS] Updated unread_cnt for D9JP61KHQ: 0
+info: Mar-5 12:19:48.706 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Mar-5 12:19:48.707 [CHECK-UNREADS] Not marking D9JP61KHQ because last_read >= latest && channel is read
+info: Mar-5 12:20:03.190 [ACTION:CHANNEL-SIDEBAR] Selected C1D05HB2L
+info: Mar-5 12:20:03.660 [MESSAGE-LIST] Switching channels: C1D05HB2L timestamps: 0
+info: Mar-5 12:20:03.660 [MESSAGE-LIST] requestAround channelId: C1D05HB2L isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Mar-5 12:20:03.670 [HISTORY-FETCH] Fetching history for message pane: C1D05HB2L
+info: Mar-5 12:20:03.690 [MESSAGE-LIST] requestAround channelId: C1D05HB2L isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Mar-5 12:20:03.690 [MESSAGE-LIST] requestAround channelId: C1D05HB2L isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Mar-5 12:20:03.102 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Mar-5 12:20:03.274 [UNREAD-COUNTS] Counting unreads in C1D05HB2L because (20) timestamps added
+info: Mar-5 12:20:03.288 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 3
+info: Mar-5 12:20:03.359 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Mar-5 12:20:03.720 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Mar-5 12:20:03.720 [CHECK-UNREADS] Marking C1D05HB2L because unread line is visible
+info: Mar-5 12:20:03.727 [UNREAD-COUNTS] Counting unreads in C1D05HB2L because last_read changed to 1520270348.000559
+info: Mar-5 12:20:43.970 [T1D098EK1] You joined channel G6YP48DQW
+warn: Mar-5 12:20:43.970 T1D098EK1 Received join event for an mpim or group we already know about (G6YP48DQW); ignoring it.
+info: Mar-5 12:20:43.990 [T1D098EK1] U9JP6196W joined channel G6YP48DQW
+info: Mar-5 12:20:43.109 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 1
+info: Mar-5 12:20:43.112 [UNREAD-COUNTS] Updated unread_highlight_cnt for G6YP48DQW: 1
+info: Mar-5 12:20:45.497 [ACTION:CHANNEL-SIDEBAR] Selected G6YP48DQW
+info: Mar-5 12:20:45.575 [MESSAGE-LIST] Switching channels: G6YP48DQW timestamps: 0
+info: Mar-5 12:20:45.576 [MESSAGE-LIST] requestAround channelId: G6YP48DQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Mar-5 12:20:45.576 [HISTORY-FETCH] Fetching history for message pane: G6YP48DQW
+info: Mar-5 12:20:45.579 [MESSAGE-LIST] requestAround channelId: G6YP48DQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Mar-5 12:20:45.579 [MESSAGE-LIST] requestAround channelId: G6YP48DQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Mar-5 12:20:45.580 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Mar-5 12:20:45.607 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0
+info: Mar-5 12:20:45.841 [T1D098EK1] bulkUpsertBot: adding bot "B90CZ1KAP"
+info: Mar-5 12:20:45.865 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (43) timestamps added
+info: Mar-5 12:20:45.871 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 43
+info: Mar-5 12:20:45.938 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Mar-5 12:20:46.710 [CHECK-UNREADS] Checking unreads after debounced channel change to G6YP48DQW
+info: Mar-5 12:20:46.710 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (overlay_is_showing)
+info: Mar-5 12:20:46.359 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Mar-5 12:20:46.360 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (overlay_is_showing)
+info: Mar-5 12:20:50.758 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Mar-5 12:20:50.993 [HISTORY-FETCH] Fetching history for message pane: G6YP48DQW
+info: Mar-5 12:20:51.195 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 84
+info: Mar-5 12:21:23.754 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Mar-5 12:21:24.187 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Mar-5 12:21:24.188 [CHECK-UNREADS] Marking G6YP48DQW because unread line is visible
+info: Mar-5 12:21:24.195 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because last_read changed to 1520270442.000687
+info: Mar-5 12:21:24.196 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 0
+info: Mar-5 12:21:24.201 [UNREAD-COUNTS] Updated unread_highlight_cnt for G6YP48DQW: 0
+info: Mar-5 12:23:06.682 [FOCUS-EVENT] Window blurred
+info: Mar-5 12:23:26.971 [FOCUS-EVENT] Window focused
+info: Mar-5 12:23:26.980 [FOCUS-EVENT] Window blurred
+info: Mar-5 12:23:26.983 [FOCUS-EVENT] Window focused
+info: Mar-5 12:23:26.989 [FOCUS-EVENT] Window blurred
+info: Mar-5 12:23:26.991 [FOCUS-EVENT] Window focused
+info: Mar-5 12:23:27.129 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 12:23:27.130 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 12:23:27.130 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 12:23:27.130 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 12:23:27.130 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 12:23:27.130 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 12:23:27.738 [FOCUS-EVENT] Window blurred
+info: Mar-5 12:25:52.939 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 12:25:52.944 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 1
+info: Mar-5 12:25:52.950 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 12:25:52.950 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 12:26:03.840 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 12:26:03.850 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 2
+info: Mar-5 12:26:03.870 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 12:26:03.870 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 12:26:14.775 [T1D098EK1] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Mar-5 12:26:14.775 [T1D098EK1] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Mar-5 12:26:14.776 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Mar-5 12:26:14.777 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Mar-5 12:26:14.777 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Mar-5 12:26:14.777 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Mar-5 12:26:14.778 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Mar-5 12:26:14.778 [T1D098EK1] SOCKET-MANAGER:  Disconnected! Online? false
+info: Mar-5 12:26:14.778 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnected to wait_for_connectivity
+info: Mar-5 12:26:14.778 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-5 12:26:14.784 [INFO] Hiding the reconnection banner because we are disconnected
+info: Mar-5 12:26:16.293 [INFO] Internet connection has been re-established after 1 retry attempts; offline for NaN seconds
+info: Mar-5 12:26:16.296 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Mar-5 12:26:16.297 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Mar-5 12:26:16.300 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Mar-5 12:26:16.300 [T1D098EK1] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Mar-5 12:26:16.301 [T1D098EK1] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Mar-5 12:26:16.301 [T1D098EK1] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Mar-5 12:26:16.467 [T1D098EK1] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Mar-5 12:26:16.467 [T1D098EK1] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Mar-5 12:26:17.428 [T1D098EK1] SOCKET-MANAGER:  Changing from connecting to connected
+info: Mar-5 12:26:17.428 [T1D098EK1] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Mar-5 12:26:17.431 [T1D098EK1] EVENTLOG fr=true, lc=false, lt=1520270487.000132
+info: Mar-5 12:26:17.476 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 12:26:17.476 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 12:26:17.476 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 12:26:17.478 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 12:26:17.479 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 12:26:17.479 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 12:28:14.751 [T1D098EK1] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Mar-5 12:28:14.752 [T1D098EK1] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Mar-5 12:28:14.752 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Mar-5 12:28:14.753 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Mar-5 12:28:14.753 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Mar-5 12:28:14.753 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Mar-5 12:28:14.753 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Mar-5 12:28:14.754 [T1D098EK1] SOCKET-MANAGER:  Disconnected! Online? false
+info: Mar-5 12:28:14.754 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnected to wait_for_connectivity
+info: Mar-5 12:28:14.754 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-5 12:28:14.756 [INFO] Hiding the reconnection banner because we are disconnected
+info: Mar-5 12:28:15.875 [INFO] Internet connection has been re-established after 1 retry attempts; offline for NaN seconds
+info: Mar-5 12:28:15.877 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Mar-5 12:28:15.878 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Mar-5 12:28:15.880 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Mar-5 12:28:15.881 [T1D098EK1] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Mar-5 12:28:15.882 [T1D098EK1] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Mar-5 12:28:15.882 [T1D098EK1] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Mar-5 12:28:16.800 [T1D098EK1] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Mar-5 12:28:16.900 [T1D098EK1] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Mar-5 12:28:16.494 [T1D098EK1] SOCKET-MANAGER:  Changing from connecting to connected
+info: Mar-5 12:28:16.495 [T1D098EK1] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Mar-5 12:28:16.496 [T1D098EK1] EVENTLOG fr=true, lc=false, lt=1520270487.000132
+info: Mar-5 12:28:16.569 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 12:28:16.569 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 3
+info: Mar-5 12:28:16.572 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 12:28:16.572 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 12:28:17.109 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 12:28:17.110 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 12:28:17.110 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 12:28:22.433 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 12:28:22.436 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 4
+info: Mar-5 12:28:22.443 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 12:28:22.443 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 12:28:24.794 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 12:28:24.799 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 5
+info: Mar-5 12:28:24.806 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 12:28:24.806 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 12:28:24.816 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 12:28:24.817 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 12:28:24.818 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 12:28:30.526 [FOCUS-EVENT] Window focused
+info: Mar-5 12:28:30.571 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 12:28:30.571 [CHECK-UNREADS] Marking G6YP48DQW because unread line is visible
+info: Mar-5 12:28:30.572 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because last_read changed to 1520270904.000498
+info: Mar-5 12:28:30.572 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 0
+info: Mar-5 12:28:36.420 [FOCUS-EVENT] Window blurred
+info: Mar-5 12:30:14.757 [T1D098EK1] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Mar-5 12:30:14.758 [T1D098EK1] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Mar-5 12:30:14.759 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Mar-5 12:30:14.760 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Mar-5 12:30:14.760 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Mar-5 12:30:14.761 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Mar-5 12:30:14.762 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Mar-5 12:30:14.762 [T1D098EK1] SOCKET-MANAGER:  Disconnected! Online? false
+info: Mar-5 12:30:14.762 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnected to wait_for_connectivity
+info: Mar-5 12:30:14.763 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-5 12:30:14.775 [INFO] Hiding the reconnection banner because we are disconnected
+info: Mar-5 12:30:15.980 [INFO] Internet connection has been re-established after 1 retry attempts; offline for NaN seconds
+info: Mar-5 12:30:15.982 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Mar-5 12:30:15.983 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Mar-5 12:30:15.984 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Mar-5 12:30:15.985 [T1D098EK1] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Mar-5 12:30:15.986 [T1D098EK1] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Mar-5 12:30:15.986 [T1D098EK1] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Mar-5 12:30:16.190 [T1D098EK1] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Mar-5 12:30:16.190 [T1D098EK1] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Mar-5 12:30:17.535 [T1D098EK1] SOCKET-MANAGER:  Changing from connecting to connected
+info: Mar-5 12:30:17.535 [T1D098EK1] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Mar-5 12:30:17.537 [T1D098EK1] EVENTLOG fr=true, lc=false, lt=1520270487.000132
+info: Mar-5 12:33:51.222 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 12:33:51.223 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 1
+info: Mar-5 12:33:51.225 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 12:33:51.225 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 12:33:53.687 [FOCUS-EVENT] Window focused
+info: Mar-5 12:33:53.738 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 12:33:53.738 [CHECK-UNREADS] Marking G6YP48DQW because unread line is visible
+info: Mar-5 12:33:53.740 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because last_read changed to 1520271231.000104
+info: Mar-5 12:33:53.740 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 0
+info: Mar-5 12:33:57.184 [FOCUS-EVENT] Window blurred
+info: Mar-5 12:56:06.530 [FOCUS-EVENT] Window focused
+info: Mar-5 12:56:06.820 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 12:56:06.830 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 12:56:06.612 [FOCUS-EVENT] Window blurred
+info: Mar-5 12:57:55.389 [FOCUS-EVENT] Window focused
+info: Mar-5 12:57:55.430 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 12:57:55.431 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 12:57:55.919 [FOCUS-EVENT] Window blurred
+info: Mar-5 13:09:22.298 [T1D098EK1] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Mar-5 13:09:22.298 [T1D098EK1] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Mar-5 13:09:22.299 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Mar-5 13:09:22.299 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Mar-5 13:09:22.299 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Mar-5 13:09:22.299 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Mar-5 13:09:22.299 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Mar-5 13:09:22.300 [T1D098EK1] SOCKET-MANAGER:  Disconnected! Online? false
+info: Mar-5 13:09:22.300 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnected to wait_for_connectivity
+info: Mar-5 13:09:22.300 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-5 13:09:22.302 [INFO] Hiding the reconnection banner because we are disconnected
+warn: Mar-5 13:09:23.300 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Mar-5 13:09:24.301 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Mar-5 13:09:25.301 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Mar-5 13:09:26.302 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Mar-5 13:09:27.302 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: Mar-5 13:09:28.302 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Mar-5 13:09:29.303 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Mar-5 13:09:30.303 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Mar-5 13:09:31.303 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Mar-5 13:09:32.304 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Mar-5 13:10:25.940 Internet connection still offline after 11 attempts (browser says it is still offline)
+warn: Mar-5 13:10:26.940 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Mar-5 13:10:27.941 Internet connection still offline after 13 attempts (browser says it is still offline)
+warn: Mar-5 13:10:28.941 Internet connection still offline after 14 attempts (browser says it is still offline)
+warn: Mar-5 13:10:29.941 Internet connection still offline after 15 attempts (browser says it is still offline)
+warn: Mar-5 13:10:30.942 Internet connection still offline after 16 attempts (browser says it is still offline)
+warn: Mar-5 13:10:31.942 Internet connection still offline after 17 attempts (browser says it is still offline)
+warn: Mar-5 13:10:32.943 Internet connection still offline after 18 attempts (browser says it is still offline)
+warn: Mar-5 13:10:33.943 Internet connection still offline after 19 attempts (browser says it is still offline)
+warn: Mar-5 13:10:34.943 Internet connection still offline after 20 attempts (browser says it is still offline)
+warn: Mar-5 13:10:35.944 Internet connection still offline after 21 attempts (browser says it is still offline)
+warn: Mar-5 13:10:36.944 Internet connection still offline after 22 attempts (browser says it is still offline)
+warn: Mar-5 13:10:38.830 Internet connection still offline after 23 attempts (unable to reach API)
+info: Mar-5 13:10:39.127 [T1D098EK1] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Mar-5 13:10:39.127 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Mar-5 13:10:39.128 [T1D098EK1] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Mar-5 13:10:39.128 T1D098EK1 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/3/5 13:10:39.130  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.92ccf9824afa07b0fe77.min.js:1:74348)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.50c564f3b9b86d19f09d.min.js:1:908566
+at e (https://a.slack-edge.com/bv1-1/application.cf591ff8ddb5eea5430c.min.js:1:515568)
+at e (https://a.slack-edge.com/bv1-1/application.cf591ff8ddb5eea5430c.min.js:1:517388)
+at https://a.slack-edge.com/bv1-1/application.cf591ff8ddb5eea5430c.min.js:1:519601
+info: Mar-5 13:10:39.132 [T1D098EK1] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Mar-5 13:10:39.132 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-5 13:11:07.449 [INFO] Internet connection has been re-established after 24 retry attempts; offline for NaN seconds
+info: Mar-5 13:11:07.449 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Mar-5 13:11:07.450 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Mar-5 13:11:07.450 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Mar-5 13:11:07.450 [T1D098EK1] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Mar-5 13:11:07.451 [T1D098EK1] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Mar-5 13:11:07.451 [T1D098EK1] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Mar-5 13:11:07.667 [T1D098EK1] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Mar-5 13:11:07.668 [T1D098EK1] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Mar-5 13:11:08.284 [T1D098EK1] SOCKET-MANAGER:  Changing from connecting to connected
+info: Mar-5 13:11:08.284 [T1D098EK1] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Mar-5 13:11:08.285 [T1D098EK1] EVENTLOG fr=true, lc=false, lt=1520270487.000132
+info: Mar-5 13:44:19.748 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 13:44:19.749 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 1
+info: Mar-5 13:44:19.751 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 13:44:19.751 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 13:45:41.126 [FOCUS-EVENT] Window focused
+info: Mar-5 13:45:41.177 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 13:45:41.178 [CHECK-UNREADS] Marking G6YP48DQW because unread line is visible
+info: Mar-5 13:45:41.182 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because last_read changed to 1520275459.000386
+info: Mar-5 13:45:41.182 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 0
+info: Mar-5 13:45:47.400 [FOCUS-EVENT] Window blurred
+info: Mar-5 13:46:13.382 [FOCUS-EVENT] Window focused
+info: Mar-5 13:46:13.424 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 13:46:13.424 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 13:46:18.137 [FOCUS-EVENT] Window blurred
+info: Mar-5 13:46:22.419 [FOCUS-EVENT] Window focused
+info: Mar-5 13:46:22.471 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 13:46:22.471 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 13:46:29.980 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 13:46:29.981 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 13:46:29.981 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 13:46:30.316 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because message removed
+info: Mar-5 13:46:30.316 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 13:46:30.317 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 13:46:30.317 [CHECK-UNREADS] Marking G6YP48DQW because unread line is visible
+info: Mar-5 13:46:30.319 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because last_read changed to 1520275590.000029
+info: Mar-5 13:46:30.924 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 13:46:39.331 [FOCUS-EVENT] Window blurred
+info: Mar-5 13:51:40.335 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 13:51:40.335 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 1
+info: Mar-5 13:51:40.338 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 13:51:40.338 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 13:52:38.245 [FOCUS-EVENT] Window focused
+info: Mar-5 13:52:38.301 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 13:52:38.301 [CHECK-UNREADS] Marking G6YP48DQW because unread line is visible
+info: Mar-5 13:52:38.303 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because last_read changed to 1520275900.000087
+info: Mar-5 13:52:38.303 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 0
+info: Mar-5 13:52:49.465 [FOCUS-EVENT] Window blurred
+info: Mar-5 13:53:09.590 [FOCUS-EVENT] Window focused
+info: Mar-5 13:53:09.646 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 13:53:09.646 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 13:53:30.250 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 13:53:30.260 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 13:53:30.260 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 13:53:30.180 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because message removed
+info: Mar-5 13:53:30.180 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 13:53:30.181 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 13:53:30.181 [CHECK-UNREADS] Marking G6YP48DQW because unread line is visible
+info: Mar-5 13:53:30.183 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because last_read changed to 1520276010.000101
+info: Mar-5 13:53:33.305 [FOCUS-EVENT] Window blurred
+info: Mar-5 13:57:41.191 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 13:57:41.192 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 1
+info: Mar-5 13:57:41.194 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 13:57:41.194 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 13:58:52.554 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 13:58:52.555 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 2
+info: Mar-5 13:58:52.556 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 13:58:52.556 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 14:07:11.431 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 14:07:11.432 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 3
+info: Mar-5 14:07:11.434 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 14:07:11.434 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 14:13:15.640 [FOCUS-EVENT] Window focused
+info: Mar-5 14:13:15.121 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 14:13:15.121 [CHECK-UNREADS] Marking G6YP48DQW because unread line is visible
+info: Mar-5 14:13:15.123 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because last_read changed to 1520276831.000230
+info: Mar-5 14:13:15.123 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 0
+info: Mar-5 14:13:32.386 [FOCUS-EVENT] Window blurred
+info: Mar-5 14:13:36.867 [FOCUS-EVENT] Window focused
+info: Mar-5 14:13:36.896 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 14:13:36.897 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 14:13:37.433 [FOCUS-EVENT] Window blurred
+info: Mar-5 14:13:41.202 [FOCUS-EVENT] Window focused
+info: Mar-5 14:13:41.242 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 14:13:41.242 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 14:13:41.983 [FOCUS-EVENT] Window blurred
+info: Mar-5 14:14:40.181 [FOCUS-EVENT] Window focused
+info: Mar-5 14:14:40.227 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 14:14:40.228 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 14:14:52.950 [FOCUS-EVENT] Window blurred
+info: Mar-5 14:24:37.938 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 14:24:37.939 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 1
+info: Mar-5 14:24:37.941 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 14:24:37.942 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 14:25:06.798 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 14:25:06.798 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 2
+info: Mar-5 14:25:06.800 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 14:25:06.800 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 14:32:34.309 [FOCUS-EVENT] Window focused
+info: Mar-5 14:32:34.350 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 14:32:34.350 [CHECK-UNREADS] Marking G6YP48DQW because unread line is visible
+info: Mar-5 14:32:34.351 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because last_read changed to 1520277906.000518
+info: Mar-5 14:32:34.352 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 0
+info: Mar-5 14:33:12.429 [FOCUS-EVENT] Window blurred
+info: Mar-5 14:35:09.639 [FOCUS-EVENT] Window focused
+info: Mar-5 14:35:09.677 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 14:35:09.677 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 14:35:11.661 [FOCUS-EVENT] Window blurred
+info: Mar-5 14:48:28.470 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because (1) timestamps added
+info: Mar-5 14:48:28.472 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 1
+info: Mar-5 14:48:28.479 [UNREAD-COUNTS] Checking unreads in G6YP48DQW after a new message
+info: Mar-5 14:48:28.479 [CHECK-UNREADS] Not marking G6YP48DQW because attention not on chat (window_not_focused)
+info: Mar-5 14:49:54.820 [FOCUS-EVENT] Window focused
+info: Mar-5 14:49:54.843 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 14:49:54.844 [CHECK-UNREADS] Marking G6YP48DQW because unread line is visible
+info: Mar-5 14:49:54.845 [UNREAD-COUNTS] Counting unreads in G6YP48DQW because last_read changed to 1520279308.000272
+info: Mar-5 14:49:54.845 [UNREAD-COUNTS] Updated unread_cnt for G6YP48DQW: 0
+info: Mar-5 14:49:55.319 [FOCUS-EVENT] Window blurred
+info: Mar-5 14:49:57.439 [FOCUS-EVENT] Window focused
+info: Mar-5 14:49:57.477 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 14:49:57.477 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 14:49:57.814 [FOCUS-EVENT] Window blurred
+info: Mar-5 14:56:37.419 [FOCUS-EVENT] Window focused
+info: Mar-5 14:56:37.442 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 14:56:37.442 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 14:56:37.771 [FOCUS-EVENT] Window blurred
+info: Mar-5 15:02:12.446 [FOCUS-EVENT] Window focused
+info: Mar-5 15:02:12.469 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 15:02:12.469 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 15:02:13.868 [FOCUS-EVENT] Window blurred
+info: Mar-5 15:12:42.597 [T1D098EK1] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Mar-5 15:12:42.598 [T1D098EK1] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Mar-5 15:12:42.600 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Mar-5 15:12:42.600 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Mar-5 15:12:42.601 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Mar-5 15:12:42.602 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Mar-5 15:12:42.602 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Mar-5 15:12:42.603 [T1D098EK1] SOCKET-MANAGER:  Disconnected! Online? false
+info: Mar-5 15:12:42.604 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnected to wait_for_connectivity
+info: Mar-5 15:12:42.604 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-5 15:12:42.610 [INFO] Hiding the reconnection banner because we are disconnected
+warn: Mar-5 15:12:43.605 Internet connection still offline after 1 attempts (browser says it is still offline)
+info: Mar-5 15:12:44.995 [INFO] Internet connection has been re-established after 2 retry attempts; offline for NaN seconds
+info: Mar-5 15:12:44.997 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Mar-5 15:12:44.997 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Mar-5 15:12:44.999 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Mar-5 15:12:44.999 [T1D098EK1] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Mar-5 15:12:45.000 [T1D098EK1] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Mar-5 15:12:45.100 [T1D098EK1] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Mar-5 15:12:45.148 [T1D098EK1] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Mar-5 15:12:45.148 [T1D098EK1] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Mar-5 15:12:45.849 [T1D098EK1] SOCKET-MANAGER:  Changing from connecting to connected
+info: Mar-5 15:12:45.849 [T1D098EK1] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Mar-5 15:12:45.851 [T1D098EK1] EVENTLOG fr=true, lc=false, lt=1520270487.000132
+warn: 2018/3/5 15:12:45.892  Received a reply to a message we have no record of sending (reply_to = 17053, type = message)
+info: Mar-5 15:21:33.600 [T1D098EK1] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Mar-5 15:21:33.700 [T1D098EK1] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Mar-5 15:21:33.800 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Mar-5 15:21:33.800 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Mar-5 15:21:33.800 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Mar-5 15:21:33.900 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Mar-5 15:21:33.900 [T1D098EK1] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Mar-5 15:21:33.900 [T1D098EK1] SOCKET-MANAGER:  Disconnected! Online? false
+info: Mar-5 15:21:33.900 [T1D098EK1] SOCKET-MANAGER:  Changing from disconnected to wait_for_connectivity
+info: Mar-5 15:21:33.900 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-5 15:21:33.120 [INFO] Hiding the reconnection banner because we are disconnected
+warn: Mar-5 19:44:33.954 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Mar-5 19:44:34.955 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Mar-5 19:44:35.956 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Mar-5 19:44:36.956 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Mar-5 19:44:37.957 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: Mar-5 19:44:38.958 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Mar-5 19:44:39.958 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Mar-5 19:44:40.959 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Mar-5 19:44:41.960 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Mar-5 19:44:42.961 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Mar-5 19:44:43.961 Internet connection still offline after 11 attempts (browser says it is still offline)
+warn: Mar-5 19:44:44.962 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Mar-5 19:44:45.963 Internet connection still offline after 13 attempts (browser says it is still offline)
+info: Mar-5 19:44:46.795 [FOCUS-EVENT] Window focused
+info: Mar-5 19:44:46.842 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 19:44:46.842 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+warn: Mar-5 19:44:46.963 Internet connection still offline after 14 attempts (browser says it is still offline)
+info: Mar-5 19:44:47.377 [FOCUS-EVENT] Window blurred
+warn: Mar-5 19:44:47.964 Internet connection still offline after 15 attempts (browser says it is still offline)
+info: Mar-5 19:44:48.222 [FOCUS-EVENT] Window focused
+info: Mar-5 19:44:48.275 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 19:44:48.276 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 19:44:48.679 [FOCUS-EVENT] Window blurred
+warn: Mar-5 19:44:48.965 Internet connection still offline after 16 attempts (browser says it is still offline)
+warn: Mar-5 19:44:49.966 Internet connection still offline after 17 attempts (browser says it is still offline)
+warn: Mar-5 19:44:50.967 Internet connection still offline after 18 attempts (browser says it is still offline)
+info: Mar-5 19:44:51.810 [FOCUS-EVENT] Window focused
+info: Mar-5 19:44:51.169 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 19:44:51.169 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 19:44:51.516 [FOCUS-EVENT] Window blurred
+warn: Mar-5 19:44:51.967 Internet connection still offline after 19 attempts (browser says it is still offline)
+info: Mar-5 19:44:52.296 [FOCUS-EVENT] Window focused
+info: Mar-5 19:44:52.381 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 19:44:52.382 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+warn: Mar-5 19:44:52.968 Internet connection still offline after 20 attempts (browser says it is still offline)
+info: Mar-5 19:44:53.900 [FOCUS-EVENT] Window blurred
+warn: Mar-5 19:44:53.969 Internet connection still offline after 21 attempts (browser says it is still offline)
+warn: Mar-5 19:44:54.969 Internet connection still offline after 22 attempts (browser says it is still offline)
+warn: Mar-5 19:44:55.970 Internet connection still offline after 23 attempts (browser says it is still offline)
+warn: Mar-5 19:44:56.978 Internet connection still offline after 24 attempts (unable to reach API)
+info: Mar-5 19:45:02.190 [T1D098EK1] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Mar-5 19:45:02.190 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Mar-5 19:45:02.191 [T1D098EK1] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Mar-5 19:45:02.192 T1D098EK1 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/3/5 19:45:02.194  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.92ccf9824afa07b0fe77.min.js:1:74348)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.50c564f3b9b86d19f09d.min.js:1:908566
+at e (https://a.slack-edge.com/bv1-1/application.cf591ff8ddb5eea5430c.min.js:1:515568)
+at e (https://a.slack-edge.com/bv1-1/application.cf591ff8ddb5eea5430c.min.js:1:517388)
+at https://a.slack-edge.com/bv1-1/application.cf591ff8ddb5eea5430c.min.js:1:519601
+info: Mar-5 19:45:02.197 [T1D098EK1] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Mar-5 19:45:02.197 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-5 19:45:04.985 [FOCUS-EVENT] Window focused
+info: Mar-5 19:45:05.700 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 19:45:05.700 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 19:45:05.683 [FOCUS-EVENT] Window blurred
+info: Mar-5 19:45:11.490 [FOCUS-EVENT] Window focused
+info: Mar-5 19:45:11.512 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-5 19:45:11.512 [CHECK-UNREADS] Not marking G6YP48DQW because last_read >= latest && channel is read
+info: Mar-5 19:45:12.194 [FOCUS-EVENT] Window blurred
+info: Mar-5 19:45:28.509 [INFO] Internet connection has been re-established after 25 retry attempts; offline for NaN seconds
+info: Mar-5 19:45:28.511 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Mar-5 19:45:28.511 [T1D098EK1] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Mar-5 19:45:28.513 [T1D098EK1] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Mar-5 19:45:28.514 [T1D098EK1] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Mar-5 19:45:28.515 [T1D098EK1] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Mar-5 19:45:28.515 [T1D098EK1] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Mar-5 19:45:28.518 [T1D098EK1] SOCKET-MANAGER:  Changing from checking_fast_reconnect to prov_connect
+info: Mar-5 19:45:28.519 [T1D098EK1] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Mar-5 19:45:28.520 [T1D098EK1] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Mar-5 19:45:28.520 [T1D098EK1] SOCKET-MANAGER:  will stay in prov_connecting state for up to 35000 ms
+info: Mar-5 19:45:31.380 [T1D098EK1] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Mar-5 19:45:31.380 [T1D098EK1] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Mar-5 19:45:31.400 [INFO] Got start data from Socket Manager; hydrating it
+info: Mar-5 19:45:31.946 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Mar-5 19:45:31.947 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Mar-5 19:45:32.191 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Mar-5 19:45:32.191 [T1D098EK1] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Mar-5 19:45:32.191 [T1D098EK1] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Mar-5 19:45:32.191 [T1D098EK1] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Mar-5 19:45:32.191 [T1D098EK1] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Mar-5 19:45:32.192 [T1D098EK1] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Mar-5 19:45:32.192 [T1D098EK1] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Mar-5 19:45:32.192 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Mar-5 19:45:32.192 [T1D098EK1] EVENTLOG fr=false, lc=false, lt=1520270487.000132
+info: Mar-5 19:45:32.192 [T1D098EK1] EVENTLOG fetching events since 1520270487.000132 (26645.999867916107 seconds ago)
+info: Mar-5 19:45:32.309 [T1D098EK1] EVENTLOG processing 3 events out of a total set of 3
+info: Mar-5 19:45:32.311 [T1D098EK1] EVENTLOG fetched finish (cancelled? false)
+info: Mar-5 19:45:32.312 [T1D098EK1] EVENTLOG dispatching signal and clearing timestamp
+info: Mar-5 19:45:32.336 [UNREAD-COUNTS] Completed users.counts processing

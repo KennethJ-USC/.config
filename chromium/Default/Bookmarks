@@ -1,0 +1,41 @@
+{
+   "checksum": "6f1c0c1d37a1c3e4a2b1895aff182a2a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13186533191767931",
+            "id": "5",
+            "meta_info": {
+               "last_visited_desktop": "13186533214208909"
+            },
+            "name": "simple-php-website/readme.md at master · banago/simple-php-website",
+            "sync_transaction_version": "6",
+            "type": "url",
+            "url": "https://github.com/banago/simple-php-website/blob/master/readme.md"
+         } ],
+         "date_added": "13185051298300256",
+         "date_modified": "13186533191767931",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13185051298300260",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "6",
+      "synced": {
+         "children": [  ],
+         "date_added": "13185051298300261",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

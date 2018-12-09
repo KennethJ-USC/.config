@@ -1,0 +1,24 @@
+VirtualBox GUI VM Selector Window 5.1.38_Ubuntu r122592 linux.amd64 (Jul 10 2018 10:40:22) release log
+00:00:00.697209 Log opened 2018-12-04T02:38:04.378982000Z
+00:00:00.697210 Build Type: release
+00:00:00.697212 OS Product: Linux
+00:00:00.697213 OS Release: 4.15.0-39-generic
+00:00:00.697214 OS Version: #42~16.04.1-Ubuntu SMP Wed Oct 24 17:09:54 UTC 2018
+00:00:00.697233 DMI Product Name: Swift SF514-51
+00:00:00.697240 DMI Product Version: V1.06
+00:00:00.697279 Host RAM: 7845MB (7.6GB) total, 6122MB (5.9GB) available
+00:00:00.697282 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.697283 Process ID: 30568
+00:00:00.697283 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.697301 Qt version: 5.5.1
+00:00:00.728916 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.944127 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.958162 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x19 x 954x1055
+00:00:10.180373 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:10.285384 2D support test succeeded
+00:00:10.378253 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:14.692497 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:13.807327 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:14.660995 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:48.078987 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:48.576912 GUI: UIMediumEnumerator: Medium-enumeration finished!

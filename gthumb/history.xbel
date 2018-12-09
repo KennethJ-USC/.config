@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/kennethj/Downloads" added="2018-12-05T21:07:50Z" modified="2018-12-05T21:07:50Z" visited="2018-12-05T21:07:50.714522Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-12-05T21:07:50Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_kennethj0" added="2018-12-05T21:07:50Z" modified="2018-12-05T21:07:50Z" visited="2018-12-05T21:07:50.714571Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-12-05T21:07:50Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="catalog:///Command%20Line.catalog" added="2018-12-05T21:07:50Z" modified="2018-12-05T21:07:50Z" visited="2018-12-05T21:07:50.714616Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-12-05T21:07:50Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kennethj/a509/HW2" added="2018-12-05T21:07:50Z" modified="2018-12-05T21:07:50Z" visited="2018-12-05T21:07:50.714651Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-12-05T21:07:50Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kennethj/a509" added="2018-12-05T21:07:50Z" modified="2018-12-05T21:07:50Z" visited="2018-12-05T21:07:50.714686Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-12-05T21:07:50Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kennethj" added="2018-12-05T21:07:50Z" modified="2018-12-05T21:07:50Z" visited="2018-12-05T21:07:50.714721Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-12-05T21:07:50Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kennethj/Pictures/Wallpapers" added="2018-12-05T21:07:50Z" modified="2018-12-05T21:07:50Z" visited="2018-12-05T21:07:50.714754Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-12-05T21:07:50Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

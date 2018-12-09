@@ -1,0 +1,109 @@
+2018-12-03 20:52:58,962 DEBUG    root            Loaded Command Group: [u'gcloud', u'init']
+2018-12-03 20:52:58,964 DEBUG    root            Running [gcloud.init] with arguments: [--console-only: "True"]
+2018-12-03 20:52:58,964 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2018-12-03 20:52:58,965 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2018-12-03 20:52:58,965 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2018-12-03 20:52:58,965 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2018-12-03 20:52:58,965 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2018-12-03 20:52:58,966 INFO     ___FILE_ONLY___ Checking network connection...
+2018-12-03 20:53:01,970 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2018-12-03 20:53:01,971 INFO     ___FILE_ONLY___ Network diagnostic passed (1/1 checks passed).
+
+
+2018-12-03 20:53:04,005 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth']
+2018-12-03 20:53:04,009 DEBUG    root            Loaded Command Group: [u'gcloud', u'auth', u'login']
+2018-12-03 20:53:04,010 INFO     root            Executing: [gcloud auth login --force --brief --no-launch-browser]
+2018-12-03 20:53:04,011 DEBUG    root            Running [gcloud.auth.login] with arguments: [--brief: "True", --force: "True", --no-launch-browser: "False"]
+2018-12-03 20:53:04,016 INFO     ___FILE_ONLY___ Go to the following link in your browser:
+
+    https://accounts.google.com/o/oauth2/auth?redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&prompt=select_account&response_type=code&client_id=32555940559.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&access_type=offline
+
+
+
+2018-12-03 20:55:42,580 INFO     oauth2client.client Successfully retrieved access token
+2018-12-03 20:55:42,609 INFO     root            Display format: "none"
+2018-12-03 20:55:42,615 DEBUG    root            SDK update checks are disabled.
+2018-12-03 20:55:42,618 INFO     ___FILE_ONLY___ You are logged in as: [kjohnson@cdhsc.org].
+
+
+2018-12-03 20:58:31,536 INFO     ___FILE_ONLY___ Your current project has been set to: [cdhdevelopment1].
+
+
+2018-12-03 20:58:31,581 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute']
+2018-12-03 20:58:31,584 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project_info']
+2018-12-03 20:58:31,591 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'project-info', u'describe']
+2018-12-03 20:58:31,592 INFO     root            Executing: [gcloud compute project-info describe --quiet]
+2018-12-03 20:58:31,594 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --quiet: "True", --verbosity: "none"]
+2018-12-03 20:58:32,106 INFO     root            Display disabled.
+2018-12-03 20:58:32,108 DEBUG    root            SDK update checks are disabled.
+2018-12-03 20:58:35,458 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'zones']
+2018-12-03 20:58:35,463 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'zones', u'list']
+2018-12-03 20:58:35,464 INFO     root            Executing: [gcloud compute zones list]
+2018-12-03 20:58:35,466 DEBUG    root            Running [gcloud.compute.zones.list] with arguments: [--no-user-output-enabled: "false", --verbosity: "none"]
+2018-12-03 20:58:35,472 INFO     root            Display disabled.
+2018-12-03 20:58:35,858 DEBUG    root            SDK update checks are disabled.
+2018-12-03 20:59:40,679 INFO     ___FILE_ONLY___ Your project default Compute Engine zone has been set to [us-east1-b].
+You can change it by running [gcloud config set compute/zone NAME].
+
+
+2018-12-03 20:59:40,681 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'regions']
+2018-12-03 20:59:40,688 DEBUG    root            Loaded Command Group: [u'gcloud', u'compute', u'regions', u'describe']
+2018-12-03 20:59:40,695 INFO     root            Executing: [gcloud compute regions describe https://www.googleapis.com/compute/v1/projects/cdhdevelopment1/regions/us-east1]
+2018-12-03 20:59:40,703 DEBUG    root            Running [gcloud.compute.regions.describe] with arguments: [--no-user-output-enabled: "false", --verbosity: "none", NAME: "https://www.googleapis.com/compute/v1/projects/cdhdevelopment1/regions/us-east1"]
+2018-12-03 20:59:41,040 INFO     root            Display disabled.
+2018-12-03 20:59:41,041 DEBUG    root            SDK update checks are disabled.
+2018-12-03 20:59:41,059 INFO     ___FILE_ONLY___ Your project default Compute Engine region has been set to [us-east1].
+You can change it by running [gcloud config set compute/region NAME].
+
+
+2018-12-03 20:59:41,060 DEBUG    root            Executing command: [u'/usr/lib/google-cloud-sdk/bin/gsutil', u'config', u'-n', u'-o', u'/home/kennethj/.boto']
+2018-12-03 20:59:41,686 DEBUG    ___FILE_ONLY___ 
+2018-12-03 20:59:41,686 DEBUG    ___FILE_ONLY___ This command will create a boto config file at /home/kennethj/.boto
+containing your credentials, based on your responses to the following
+questions.
+
+Boto config file "/home/kennethj/.boto" created. If you need to use a
+proxy to access the Internet please see the instructions in that file.
+
+2018-12-03 20:59:41,686 INFO     ___FILE_ONLY___ Created a default .boto configuration file at [/home/kennethj/.boto]. See this file and
+[https://cloud.google.com/storage/docs/gsutil/commands/config] for more
+information about configuring Google Cloud Storage.
+
+2018-12-03 20:59:41,687 INFO     ___FILE_ONLY___ Your Google Cloud SDK is configured and ready to use!
+
+
+2018-12-03 20:59:41,687 INFO     ___FILE_ONLY___ * Commands that require authentication will use kjohnson@cdhsc.org by default
+
+2018-12-03 20:59:41,687 INFO     ___FILE_ONLY___ * Commands will reference project `cdhdevelopment1` by default
+
+2018-12-03 20:59:41,687 INFO     ___FILE_ONLY___ * Compute Engine commands will use region `us-east1` by default
+
+2018-12-03 20:59:41,687 INFO     ___FILE_ONLY___ * Compute Engine commands will use zone `us-east1-b` by default
+
+
+2018-12-03 20:59:41,687 INFO     ___FILE_ONLY___ Run `gcloud help config` to learn how to change individual settings
+
+
+2018-12-03 20:59:41,687 INFO     ___FILE_ONLY___ This gcloud configuration is called [default]. You can create additional configurations if you work with multiple accounts and/or projects.
+
+2018-12-03 20:59:41,688 INFO     ___FILE_ONLY___ Run `gcloud topic configurations` to learn more.
+
+
+2018-12-03 20:59:41,688 INFO     ___FILE_ONLY___ Some things to try next:
+
+
+2018-12-03 20:59:41,688 INFO     ___FILE_ONLY___ * Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+
+2018-12-03 20:59:41,688 INFO     ___FILE_ONLY___ * Run `gcloud topic -h` to learn about advanced features of the SDK like arg files and output formatting
+
+2018-12-03 20:59:41,688 INFO     root            Display format: "default"
+2018-12-03 20:59:41,689 DEBUG    root            SDK update checks are disabled.

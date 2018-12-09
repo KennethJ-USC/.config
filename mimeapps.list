@@ -1,0 +1,10 @@
+[Added Associations]
+application/rtf=firefox.desktop;
+application/pdf=firefox.desktop;
+application/vnd.ms-powerpoint=firefox.desktop;chromium-browser.desktop;
+image/0f2d620352474eb5904c73997285e013=pinta.desktop;
+image/82dac33bc1324b9f9e6035419ce5f578=gthumb.desktop;
+
+[Default Applications]
+x-scheme-handler/discord-409416265891971072=discord-409416265891971072.desktop
+x-scheme-handler/discord-431872723946438658=discord-431872723946438658.desktop

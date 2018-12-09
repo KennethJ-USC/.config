@@ -1,0 +1,21 @@
+2018/12/03-20:41:23.475 10493 Reusing MANIFEST /home/kennethj/.config/chromium/Default/Session Storage/MANIFEST-000001
+2018/12/03-20:41:23.475 10493 Recovering log #231
+2018/12/03-20:41:23.475 10493 Reusing old log /home/kennethj/.config/chromium/Default/Session Storage/000231.log 
+2018/12/03-20:46:34.574 11070 Level-0 table #235: started
+2018/12/03-20:46:34.584 11070 Level-0 table #235: 19030 bytes OK
+2018/12/03-20:46:34.587 11070 Delete type=0 #231
+2018/12/03-20:48:27.078 11070 Level-0 table #237: started
+2018/12/03-20:48:27.085 11070 Level-0 table #237: 15098 bytes OK
+2018/12/03-20:48:27.089 11070 Delete type=0 #234
+2018/12/03-20:48:27.089 11070 Compacting 4@0 + 1@1 files
+2018/12/03-20:48:27.098 11070 Generated table #238@0: 3240 keys, 83947 bytes
+2018/12/03-20:48:27.098 11070 Compacted 4@0 + 1@1 files => 83947 bytes
+2018/12/03-20:48:27.100 11070 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/12/03-20:48:27.100 11070 Delete type=2 #230
+2018/12/03-20:48:27.100 11070 Delete type=2 #228
+2018/12/03-20:48:27.101 11070 Delete type=2 #237
+2018/12/03-20:48:27.101 11070 Delete type=2 #235
+2018/12/03-20:48:27.101 11070 Delete type=2 #232
+2018/12/03-21:37:53.199 11070 Level-0 table #240: started
+2018/12/03-21:37:53.205 11070 Level-0 table #240: 16616 bytes OK
+2018/12/03-21:37:53.209 11070 Delete type=0 #236
